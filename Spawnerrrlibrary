@@ -101,12 +101,12 @@ local function CreateButton(text, yPos, callback)
     btn.Parent = ContentFrame
 end
 
--- Buttons for your scripts
-CreateButton("📦 Spawner", 10, function()
-    local Spawner = loadstring(game:HttpGet("https://gitlab.com/darkiedarkie/dark/-/raw/main/Spawner.lua"))()
-    Spawner.Load()
+-- 🌴 Shin Spawner (updated)
+CreateButton("🌴 Shin Spawner", 10, function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/veryimportantrr/x/refs/heads/main/gag_visual.lua", true))("discord.gg/csxu2nCkw9")
 end)
 
+-- 🥚 Egg Predictor
 CreateButton("🥚 Egg Predictor", 60, function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/ShinOnTopV99/eggesp/refs/heads/main/egg"))()
 end)
